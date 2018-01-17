@@ -1,0 +1,16 @@
+PODS:
+  - LeroLero (0.1.0)
+
+DEPENDENCIES:
+  - LeroLero (from `../`)
+
+EXTERNAL SOURCES:
+  LeroLero:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LeroLero: b6dff189d351ff851ee751910decaecdbe1aed5b
+
+PODFILE CHECKSUM: 8924d9d581446ec16bae17d8a216d8a3b6e5fd8e
+
+COCOAPODS: 1.3.1

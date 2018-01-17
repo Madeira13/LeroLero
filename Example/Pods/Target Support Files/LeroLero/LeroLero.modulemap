@@ -1,0 +1,6 @@
+framework module LeroLero {
+  umbrella header "LeroLero-umbrella.h"
+
+  export *
+  module * { export * }
+}

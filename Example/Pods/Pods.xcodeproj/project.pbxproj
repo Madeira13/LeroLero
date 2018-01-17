@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C850A06E597C0588CD143AA7FF85E4E /* Pods-LeroLero_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926BE38174E98E99EA7394559FCA4690 /* Pods-LeroLero_Example-dummy.m */; };
+		2124FDF6640BF0C04C2213488EFB6AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		269DE85DB556CCFE023ACE12092B865F /* Pods-LeroLero_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 016D32AEE2B462E4305BB9F44FAFDC11 /* Pods-LeroLero_Tests-dummy.m */; };
+		2ACB10D4E454835A4EAF4DC7B0A84141 /* LeroLero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4AB3B3952E3DA3F3E19C83744985F9 /* LeroLero-dummy.m */; };
+		3D7387C9266F434017A7C3FC5DEBB293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		43EE2EA820100AD700455004 /* LeroLeroGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE2EA720100AD700455004 /* LeroLeroGenerator.swift */; };
+		54D933458BE0FF6B8ADDCCF77583C14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		76E5A80E867C930399C6CE61003E4326 /* Pods-LeroLero_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B7A3518653BDEE95A61076D032C390 /* Pods-LeroLero_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A92A9F1F96F637F760415F74330B0D0 /* LeroLero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 905621D575A9D87BDE71E40B21B36F78 /* LeroLero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36BBAE9EC98FA6E7022991BF5AED45E /* Pods-LeroLero_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4627EDAD9E85AE965C40A4AE5B02CB67 /* Pods-LeroLero_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B7C1CC5296BF41B203CC579CC5502B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF4A8877480C6A7AC9E2386DFEF5D2C;
+			remoteInfo = LeroLero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016D32AEE2B462E4305BB9F44FAFDC11 /* Pods-LeroLero_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeroLero_Tests-dummy.m"; sourceTree = "<group>"; };
+		09C1B2AE9F3719908BE6B4A069726C8F /* Pods-LeroLero_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeroLero_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFFF7C4A64A31FCE0FBE62D30BFD6EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1536E6657DC55F1ED9BD24C49483957B /* Pods-LeroLero_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeroLero_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB54EA0F98638A7ECDA4609BE029958 /* Pods_LeroLero_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeroLero_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229C3BD4EB40C4AC1FF35D97ABDEBC43 /* Pods-LeroLero_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeroLero_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22ADB9EE4439333D4A1D8821A3C1B122 /* Pods-LeroLero_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeroLero_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2607F45FA5A9CF351FE65AAC7AE21E74 /* Pods-LeroLero_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeroLero_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EC02D632AA543745DC821535E0CB007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43EE2EA720100AD700455004 /* LeroLeroGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeroLeroGenerator.swift; path = LeroLero/Classes/LeroLeroGenerator.swift; sourceTree = "<group>"; };
+		4627EDAD9E85AE965C40A4AE5B02CB67 /* Pods-LeroLero_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeroLero_Example-umbrella.h"; sourceTree = "<group>"; };
+		61A6424950ACF86D37E53A15D852FD73 /* Pods-LeroLero_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeroLero_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B4AB3B3952E3DA3F3E19C83744985F9 /* LeroLero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeroLero-dummy.m"; sourceTree = "<group>"; };
+		6D57D8E866B961EB8ABB13FD316E9074 /* Pods-LeroLero_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeroLero_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B87C5540B897320035E5EA3DD6B49BC /* Pods-LeroLero_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeroLero_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		880001C9FD2B7FA3656256CB53C49B5B /* LeroLero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LeroLero.modulemap; sourceTree = "<group>"; };
+		8FC1A8F354CFF088F94AEA3C60263C3A /* Pods-LeroLero_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeroLero_Example.release.xcconfig"; sourceTree = "<group>"; };
+		905621D575A9D87BDE71E40B21B36F78 /* LeroLero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeroLero-umbrella.h"; sourceTree = "<group>"; };
+		926BE38174E98E99EA7394559FCA4690 /* Pods-LeroLero_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeroLero_Example-dummy.m"; sourceTree = "<group>"; };
+		92B0591101681C385AE8D71D01D829D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B7A3518653BDEE95A61076D032C390 /* Pods-LeroLero_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeroLero_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C83AEF1E3385157317F5531697A004 /* LeroLero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeroLero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE9FFBEC2F13A806D1DB9215E69E6BA /* LeroLero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeroLero-prefix.pch"; sourceTree = "<group>"; };
+		CB40243B7B056F723CF95B0DF4A0C3B3 /* Pods-LeroLero_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeroLero_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CEFB145E3B29BA8BECC44EC87DF0A3EE /* Pods-LeroLero_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LeroLero_Tests.modulemap"; sourceTree = "<group>"; };
+		DF86FC67E25A849A04D9ADFBF2070698 /* Pods-LeroLero_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LeroLero_Example.modulemap"; sourceTree = "<group>"; };
+		E1718A1536A9232F91D59824C9EBFDEB /* Pods-LeroLero_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeroLero_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5ABFF78DBD71CDA0EC6CFC2B7FD77AE /* Pods_LeroLero_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeroLero_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB488F686E0496EF5DCEE5A155BE7D20 /* LeroLero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeroLero.xcconfig; sourceTree = "<group>"; };
+		F7A6800A659A5C87FA9742A66C511471 /* Pods-LeroLero_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeroLero_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26468B1509357B296856D0A660B8AAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D933458BE0FF6B8ADDCCF77583C14E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A48E8A5EAF291A18EC9E9C597E789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2124FDF6640BF0C04C2213488EFB6AC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04AE29503BF8D48D05DA175C70DA279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7387C9266F434017A7C3FC5DEBB293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4259B2F972AB6900FAF57DBC358A8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FFFF7C4A64A31FCE0FBE62D30BFD6EF /* Info.plist */,
+				880001C9FD2B7FA3656256CB53C49B5B /* LeroLero.modulemap */,
+				EB488F686E0496EF5DCEE5A155BE7D20 /* LeroLero.xcconfig */,
+				6B4AB3B3952E3DA3F3E19C83744985F9 /* LeroLero-dummy.m */,
+				BFE9FFBEC2F13A806D1DB9215E69E6BA /* LeroLero-prefix.pch */,
+				905621D575A9D87BDE71E40B21B36F78 /* LeroLero-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeroLero";
+			sourceTree = "<group>";
+		};
+		2FE9DE024A6732B1F73E133A251E3ED0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC44EDF03375C94FFA2F2632BDCF7296 /* Pods-LeroLero_Example */,
+				40930DA62FD25CDC44C585658C2E0060 /* Pods-LeroLero_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40930DA62FD25CDC44C585658C2E0060 /* Pods-LeroLero_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC02D632AA543745DC821535E0CB007 /* Info.plist */,
+				CEFB145E3B29BA8BECC44EC87DF0A3EE /* Pods-LeroLero_Tests.modulemap */,
+				229C3BD4EB40C4AC1FF35D97ABDEBC43 /* Pods-LeroLero_Tests-acknowledgements.markdown */,
+				7B87C5540B897320035E5EA3DD6B49BC /* Pods-LeroLero_Tests-acknowledgements.plist */,
+				016D32AEE2B462E4305BB9F44FAFDC11 /* Pods-LeroLero_Tests-dummy.m */,
+				22ADB9EE4439333D4A1D8821A3C1B122 /* Pods-LeroLero_Tests-frameworks.sh */,
+				61A6424950ACF86D37E53A15D852FD73 /* Pods-LeroLero_Tests-resources.sh */,
+				92B7A3518653BDEE95A61076D032C390 /* Pods-LeroLero_Tests-umbrella.h */,
+				E1718A1536A9232F91D59824C9EBFDEB /* Pods-LeroLero_Tests.debug.xcconfig */,
+				1536E6657DC55F1ED9BD24C49483957B /* Pods-LeroLero_Tests.release.xcconfig */,
+			);
+			name = "Pods-LeroLero_Tests";
+			path = "Target Support Files/Pods-LeroLero_Tests";
+			sourceTree = "<group>";
+		};
+		4EBF4F0B07DAA68917E0ADBAD006A0B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98D1A98F8F51165061A1FF3C9C054 /* LeroLero */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4EBF4F0B07DAA68917E0ADBAD006A0B3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9CD57B425E3D378A4AB0A52BA7572614 /* Products */,
+				2FE9DE024A6732B1F73E133A251E3ED0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD57B425E3D378A4AB0A52BA7572614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C83AEF1E3385157317F5531697A004 /* LeroLero.framework */,
+				E5ABFF78DBD71CDA0EC6CFC2B7FD77AE /* Pods_LeroLero_Example.framework */,
+				1FB54EA0F98638A7ECDA4609BE029958 /* Pods_LeroLero_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC44EDF03375C94FFA2F2632BDCF7296 /* Pods-LeroLero_Example */ = {
+			isa = PBXGroup;
+			children = (
+				92B0591101681C385AE8D71D01D829D3 /* Info.plist */,
+				DF86FC67E25A849A04D9ADFBF2070698 /* Pods-LeroLero_Example.modulemap */,
+				2607F45FA5A9CF351FE65AAC7AE21E74 /* Pods-LeroLero_Example-acknowledgements.markdown */,
+				6D57D8E866B961EB8ABB13FD316E9074 /* Pods-LeroLero_Example-acknowledgements.plist */,
+				926BE38174E98E99EA7394559FCA4690 /* Pods-LeroLero_Example-dummy.m */,
+				CB40243B7B056F723CF95B0DF4A0C3B3 /* Pods-LeroLero_Example-frameworks.sh */,
+				F7A6800A659A5C87FA9742A66C511471 /* Pods-LeroLero_Example-resources.sh */,
+				4627EDAD9E85AE965C40A4AE5B02CB67 /* Pods-LeroLero_Example-umbrella.h */,
+				09C1B2AE9F3719908BE6B4A069726C8F /* Pods-LeroLero_Example.debug.xcconfig */,
+				8FC1A8F354CFF088F94AEA3C60263C3A /* Pods-LeroLero_Example.release.xcconfig */,
+			);
+			name = "Pods-LeroLero_Example";
+			path = "Target Support Files/Pods-LeroLero_Example";
+			sourceTree = "<group>";
+		};
+		DDC98D1A98F8F51165061A1FF3C9C054 /* LeroLero */ = {
+			isa = PBXGroup;
+			children = (
+				43EE2EA720100AD700455004 /* LeroLeroGenerator.swift */,
+				1F4259B2F972AB6900FAF57DBC358A8C /* Support Files */,
+			);
+			name = LeroLero;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB8B24735365609933C938FEA307978D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BBAE9EC98FA6E7022991BF5AED45E /* Pods-LeroLero_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27673E84F1923CA30697EB506E5B52C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A92A9F1F96F637F760415F74330B0D0 /* LeroLero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34E26165675A5D5268D77D3574D78A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E5A80E867C930399C6CE61003E4326 /* Pods-LeroLero_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AF4A8877480C6A7AC9E2386DFEF5D2C /* LeroLero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D801DAB447C90A6CFD84132D62055A9E /* Build configuration list for PBXNativeTarget "LeroLero" */;
+			buildPhases = (
+				72BC4E68D72D413BF9BEF9CC72C52FAA /* Sources */,
+				D04AE29503BF8D48D05DA175C70DA279 /* Frameworks */,
+				E27673E84F1923CA30697EB506E5B52C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeroLero;
+			productName = LeroLero;
+			productReference = 93C83AEF1E3385157317F5531697A004 /* LeroLero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2E86E8D11E07CB458CAFF9779119DC8 /* Pods-LeroLero_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E67AF4333E56ED3BBD84F9B31981FC /* Build configuration list for PBXNativeTarget "Pods-LeroLero_Tests" */;
+			buildPhases = (
+				526FF0A60FE20A4757AE2B22BFA620FE /* Sources */,
+				26468B1509357B296856D0A660B8AAE2 /* Frameworks */,
+				EA34E26165675A5D5268D77D3574D78A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LeroLero_Tests";
+			productName = "Pods-LeroLero_Tests";
+			productReference = 1FB54EA0F98638A7ECDA4609BE029958 /* Pods_LeroLero_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAA556C3DB60680D1E67F99400A191B2 /* Pods-LeroLero_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D237E2E15D5D3012CD8E7A54C898E0 /* Build configuration list for PBXNativeTarget "Pods-LeroLero_Example" */;
+			buildPhases = (
+				E9316531D51A3A8FD7DA92D0F038E31A /* Sources */,
+				A54A48E8A5EAF291A18EC9E9C597E789 /* Frameworks */,
+				DB8B24735365609933C938FEA307978D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6DFA72D3931B39689937AAB8831691F /* PBXTargetDependency */,
+			);
+			name = "Pods-LeroLero_Example";
+			productName = "Pods-LeroLero_Example";
+			productReference = E5ABFF78DBD71CDA0EC6CFC2B7FD77AE /* Pods_LeroLero_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4AF4A8877480C6A7AC9E2386DFEF5D2C = {
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9CD57B425E3D378A4AB0A52BA7572614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF4A8877480C6A7AC9E2386DFEF5D2C /* LeroLero */,
+				EAA556C3DB60680D1E67F99400A191B2 /* Pods-LeroLero_Example */,
+				A2E86E8D11E07CB458CAFF9779119DC8 /* Pods-LeroLero_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526FF0A60FE20A4757AE2B22BFA620FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269DE85DB556CCFE023ACE12092B865F /* Pods-LeroLero_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BC4E68D72D413BF9BEF9CC72C52FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB10D4E454835A4EAF4DC7B0A84141 /* LeroLero-dummy.m in Sources */,
+				43EE2EA820100AD700455004 /* LeroLeroGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9316531D51A3A8FD7DA92D0F038E31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C850A06E597C0588CD143AA7FF85E4E /* Pods-LeroLero_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6DFA72D3931B39689937AAB8831691F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeroLero;
+			target = 4AF4A8877480C6A7AC9E2386DFEF5D2C /* LeroLero */;
+			targetProxy = 6B7C1CC5296BF41B203CC579CC5502B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		274250A59CED188EAAAF226F0493C838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC1A8F354CFF088F94AEA3C60263C3A /* Pods-LeroLero_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeroLero_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeroLero_Example/Pods-LeroLero_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeroLero_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29358656F7433E617A15A894790C436D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB488F686E0496EF5DCEE5A155BE7D20 /* LeroLero.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeroLero/LeroLero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeroLero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeroLero/LeroLero.modulemap";
+				PRODUCT_NAME = LeroLero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4204D93D25293ABB71AC0AB36E28FEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB488F686E0496EF5DCEE5A155BE7D20 /* LeroLero.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeroLero/LeroLero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeroLero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeroLero/LeroLero.modulemap";
+				PRODUCT_NAME = LeroLero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8AC610DD7ECEC74E1EE6796FE90249CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C1B2AE9F3719908BE6B4A069726C8F /* Pods-LeroLero_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeroLero_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeroLero_Example/Pods-LeroLero_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeroLero_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5B3FA1EBA2AF95BDB9CB56790C857D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1536E6657DC55F1ED9BD24C49483957B /* Pods-LeroLero_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeroLero_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeroLero_Tests/Pods-LeroLero_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeroLero_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDC63506FF707E3C4245871035B4535B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1718A1536A9232F91D59824C9EBFDEB /* Pods-LeroLero_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeroLero_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeroLero_Tests/Pods-LeroLero_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeroLero_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E67AF4333E56ED3BBD84F9B31981FC /* Build configuration list for PBXNativeTarget "Pods-LeroLero_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC63506FF707E3C4245871035B4535B /* Debug */,
+				C5B3FA1EBA2AF95BDB9CB56790C857D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D237E2E15D5D3012CD8E7A54C898E0 /* Build configuration list for PBXNativeTarget "Pods-LeroLero_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC610DD7ECEC74E1EE6796FE90249CC /* Debug */,
+				274250A59CED188EAAAF226F0493C838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D801DAB447C90A6CFD84132D62055A9E /* Build configuration list for PBXNativeTarget "LeroLero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29358656F7433E617A15A894790C436D /* Debug */,
+				4204D93D25293ABB71AC0AB36E28FEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

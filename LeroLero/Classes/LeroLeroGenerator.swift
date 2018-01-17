@@ -65,7 +65,7 @@ let leros = [
 ]
 
 
-class LeroLeroGenerator: NSObject {
+public class LeroLeroGenerator: NSObject {
     
     public class func leroLeroGenerator() -> String {
         let count = leros.count

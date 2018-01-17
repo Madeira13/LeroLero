@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LeroLero_Example' do
+  pod 'LeroLero', :path => '../'
+
+  target 'LeroLero_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
